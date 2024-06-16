@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Weather App</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="card">
+        <div class="card-header text-center">
+          <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-style: oblique;">WEATHER FORECAST</h1>
+        </div>
+        <div class="card-body text-center">
+          <input
+            type="text"
+            id="city"
+            class="form-control"
+            placeholder="Enter city name"
+          />
+          <button id="getWeatherBtn" class="btn btn-primary mt-3">
+            Get Weather
+          </button>
+          <div id="weatherInfo" class="mt-3">
+            <!-- Weather information will be displayed here -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="weather.js"></script>
+  </body>
+</html>

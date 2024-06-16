@@ -1,0 +1,36 @@
+body {
+  background-color: purple;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: lightyellow; /* Light yellow background for the card */
+}
+
+.card-header {
+  background-color: lightseagreen;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.form-control {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.btn {
+  width: 80%;
+  background-color: lightseagreen; /* Light yellow background for the button */
+  border-color: lightyellow;
+  color: black;
+}
+
+#weatherInfo {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
